@@ -12,16 +12,16 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_jxo2qsf",
+        "template_denmaj7",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "fCbICwsbnyxLftcMQ"
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
+          //form.reset();
         },
         (error) => {
           console.log(error.text);
@@ -35,7 +35,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+          <span style={{color: darkMode?'white': ''}}>If you wanna hire</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"
@@ -50,7 +50,7 @@ const Contact = () => {
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          <span>{done && "Thanks for Reaching out to me."}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

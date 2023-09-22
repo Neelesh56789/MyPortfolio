@@ -24,12 +24,12 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Services &</span>
+        <span>Skills</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I am working in corporate since last 2 years
           <br />
-          ispum is simpley dummy text of printing
+          I worked on more than 20+ projects.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -38,7 +38,6 @@ const Services = () => {
       </div>
       {/* right */}
       <div className="cards">
-        {/* first card */}
         <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
@@ -46,8 +45,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Freelancing"}
+            detail={"Taught Java with DSA, C++ with DSA to 1000+ college students"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +57,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Software Developer"}
+            detail={"Still Struggling for job. Have a very good knowledge of C++ and Java with DSA."}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,16 +69,16 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Web Developer"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Worked on more than 20+ projects and also worked on automate those projects."
             }
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
         <div
           className="blur s-blur2"
-          style={{ background: "var(--purple)" }}
+          style={{ background: "var(--red)" }}
         ></div>
       </div>
     </div>
