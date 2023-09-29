@@ -9,11 +9,11 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>neelesh.tiwari@codingninjas.com</span>
+        <span>aksingla00776@codingninjas.com</span>
         
         <div className="f-icons">
-        <a href="https://github.com/Neelesh56789"><img src={Github} alt="" color="white" size={"3rem"}/></a>
-        <a href="https://www.linkedin.com/in/neelesh-tiwari-076922176/"><img src={LinkedIn} alt="" color="white" size={"3rem"}/></a>
+        <a href="https://github.com/Aksingla00776"><img src={Github} alt="" color="white" size={"3rem"}/></a>
+        <a href="https://www.linkedin.com/in/ankushsingla/"><img src={LinkedIn} alt="" color="white" size={"3rem"}/></a>
         </div>
         
       </div>

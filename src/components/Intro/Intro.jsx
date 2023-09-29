@@ -25,9 +25,9 @@ const Intro = () => {
         <div className="i-name">
     
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
-          <span>Neelesh Tiwari</span>
+          <span>Ankush Singla</span>
           <span>
-            I am a software developer and web developer with 2+ years of experience. Currently, I am looking in jobs in these 2 domains.
+            I am a software developer and web developer with 12+ years of experience. Currently, I am the Chief Executive Officer of Coding Ninjas. Now, I am looking for the CEO position of Another Company. If anyone wants to hire me, Contact me.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -35,8 +35,8 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-        <a href="https://github.com/Neelesh56789"><img src={Github} alt="" /></a>
-        <a href="https://www.linkedin.com/in/neelesh-tiwari-076922176/"><img src={LinkedIn} alt="" /></a>
+        <a href="https://github.com/Aksingla00776"><img src={Github} alt="" /></a>
+        <a href="https://www.linkedin.com/in/ankushsingla/"><img src={LinkedIn} alt="" /></a>
         </div>
       </div>
       {/* right image side */}

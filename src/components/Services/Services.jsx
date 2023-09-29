@@ -27,9 +27,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Services &</span>
         <span>Skills</span>
         <spane>
-          I am working in corporate since last 2 years
+          I am working in corporate since last 12 years
           <br />
-          I worked on more than 20+ projects.
+          I have worked on than 100+ projects.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -45,8 +45,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Freelancing"}
-            detail={"Taught Java with DSA, C++ with DSA to 1000+ college students"}
+            heading={"CEO"}
+            detail={"Working as CEO of Coding Ninjas, is one of the founding member of Coding Ninjas as well."}
           />
         </motion.div>
         {/* second card */}
@@ -58,7 +58,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Software Developer"}
-            detail={"Still Struggling for job. Have a very good knowledge of C++ and Java with DSA."}
+            detail={"Worked in Companies like Amazon and Facebook(currently known as Meta)."}
           />
         </motion.div>
         {/* 3rd */}

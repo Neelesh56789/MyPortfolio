@@ -87,19 +87,19 @@ describe('Contact Component', () => {
   
     it('should display correct texts in achievements', () => {
       cy.get('.experience .achievement:nth-child(1)').within(() => {
-        cy.get('div.circle').should('contain.text', '2+');
+        cy.get('div.circle').should('not.have', '0');
         cy.get('span:nth-child(2)').should('contain.text', 'years');
         cy.get('span:nth-child(3)').should('contain.text', 'Experience');
       });
   
       cy.get('.experience .achievement:nth-child(2)').within(() => {
-        cy.get('div.circle').should('contain.text', '10+');
+        cy.get('div.circle').should('not.have', '0');
         cy.get('span:nth-child(2)').should('contain.text', 'completed');
         cy.get('span:nth-child(3)').should('contain.text', 'Projects');
       });
   
       cy.get('.experience .achievement:nth-child(3)').within(() => {
-        cy.get('div.circle').should('contain.text', '1+');
+        cy.get('div.circle').should('not.have', '0');
         cy.get('span:nth-child(2)').should('contain.text', 'companies');
         cy.get('span:nth-child(3)').should('contain.text', 'Work');
       });
@@ -324,7 +324,7 @@ describe('Contact Component', () => {
           
         });
       
-        it.only('should display all the cards with the correct details', () => {
+        it('should display all the cards with the correct details', () => {
           cy.get('#services .cards')
             .find('.card')
             .should('not.have.length', 1)

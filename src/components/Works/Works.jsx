@@ -25,14 +25,14 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            I have mored more than 4+ comapnies in last 2 years.
+            I have worked in 10+ comapnies in last 12 years.
             <br />
             I have worked in different domains like Software Developer and Web Developer.
             
             <br />
-            I have worked in more than 10+ projects in different domains.
+            I have worked in 100+ projects in different domains.
             <br />
-            I have sufficient experience to join any company.
+            I have sufficient experience to join any company as CEO.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

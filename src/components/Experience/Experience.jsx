@@ -8,17 +8,17 @@ const Experience = () => {
   return (
     <div className="experience" id='experience'>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>2+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>12+</div>
         <span  style={{color: darkMode?'white':''}}>years </span>
         <span>Experience</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>10+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>100+</div>
         <span  style={{color: darkMode?'white':''}}>completed </span>
         <span>Projects</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>1+</div>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>10+</div>
         <span  style={{color: darkMode?'white':''}}>companies </span>
         <span>Work</span>
       </div>
