@@ -25,16 +25,16 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Invasion} alt="" />
+          <img src={Invasion} alt="img-1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Weather} alt="" />
+          <img src={Weather} alt="img-2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={DND} alt="" />
+          <img src={DND} alt="img-3" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Portfolo} alt="" />
+          <img src={Portfolo} alt="img-4" />
         </SwiperSlide>
       </Swiper>
     </div>
